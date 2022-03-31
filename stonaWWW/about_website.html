@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vintage Retro Vibe Garage</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div id="id-main" class="main-foto-div">
+      <nav>
+        <div class="nav-container">
+          <div class="nav-main">
+            <div class="nav-logo-div">
+              <a href="index.html#id-main">
+                <img class="nav-logo" src="assets/logo_temp.jpg" alt="logo firmy z napisem 'Vintage Retro Vibe Garage'">
+              </a>
+              <button onclick="myButton()" class="nav-btn">
+                <i class="nav-i fa fa-align-justify fa-3x"></i>
+              </button>
+            </div>
+            <div id="myDropdown" class="nav-box">
+                <a href="index.html#id-about-us" class="nav_link nav-link-first"> o&nbsp;nas </a>
+                <a href="index.html#id-gallery" class="nav_link"> galeria </a>
+                <a href="index.html#id-prices" class="nav_link"> cennik </a>
+                <a href="index.html#id-contact" class="nav_link"> kontakt </a>
+                <a href="about_website.html" class="nav_link"> o&nbsp;stronie </a>
+            </div>
+          </div>
+          <div class="nav-flags">
+            <div class="nav-flag-div">
+              <a href="index.html"> 
+                <img class="nav-flag" src="./assets/uk_flag.jpg" alt="english flag: by clicking switch to english language"/>
+              </a>
+            </div>
+            <div class="nav-flag-div">
+              <a href="index.html">
+                <img class="nav-flag" src="./assets/polish_flag.jpg" alt="polska flaga: przez kliknięcie przełącz na polski język"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main>
+      <!--------------------------- 
+            ABOUT US SECTION
+       --------------------------->
+      <section id="id-about-us" class="section">
+        <div class="contact-description-box">
+          <div class="section-title section-first-title">O stronie</div>
+          <div class="section-description">
+            1. Stronę zrobiono z wykorzystaniem narzędzi: CSS, HTML, JS.<br><br>
+            2. Dodatkowo urzyto font-awersome, w celu zyskania ładnych log typu facebook, instagram, e-mail.<br><br>
+            3. Spełniono wszystkie założenia projektowe.<br><br>
+            4. W celu budowy strony używano visual studio code, z dodatkami wizualiacyjnymi oraz dodatkiem "preview on web server" w celu widzenia zmian zaraz po zapisie pliku.<br><br>
+            5. Stronę sprawdzono na przeglądarce chrome, opera, edge (raczej nowsze wersje)<br><br>
+            6. Stronę sprawdzono na starszej przeglądarce, już niewspieranej- internet explorer.
+            Stronę dostosowano tak, aby treść dobrze się wyświetlała nawet na internet explorer, w tym celu zrezygnowano z nowszych featureów css,
+            takich jak posiadanie zmiennych zadeklarowanych w root oraz operacje na nich za pomocą funkcji calc().<br><br>
+            7. Strona skaluje się tak, aby przeglądanie jej na telefonie bądź tablecie również było możliwe i przejrzyste.<br><br>
+            8. Strona stworzona przez mnie będzie używana w bliskiej przyszłości przez firmę retro vibe.<br><br>
+            9. Stronę zwalidowno validatorem css- 0 błędów.<br><br>
+            10. Stronę zwalidowno validatorem html- 0 błędów.<br><br>
+            11. Teksty i niektóre obrazy jeszcze się zmienią przed finalnym wstawieniem, dlatego strony nietłumaczono jeszcze na j. angielski.<br><br>
+            12. Logo firmy również się zmieni, gdyż wygląda słabo.<br><br>
+          </div>
+          <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+            <img style="width: 60vw;" src="assets/about_website.png" alt="sth">
+            <img style="width: 60vw;" src="assets/css_validation.png" alt="sth">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer_div footer_div_company_logos">
+          <a class="footer_company_logo" href="https://www.facebook.com/RetroVibe_Garage-100992625556147">
+            <i class="fa fa-facebook fa-lg"></i>
+          </a>
+          <a class="footer_company_logo" href="https://www.instagram.com/retrovibe_garage/">
+            <i class="fa fa-instagram fa-lg"></i>
+          </a>
+        </div>
+        <div class="footer_div">
+          <p>
+            &copy; <span id="year"></span>
+            <span class="footer-specyfic-text">Vintage Retro Vibe Garage</span> stworzono przez
+            <a class="footer-specyfic-text" href="https://github.com/PiotrWojcik97">Piotr Wójcik</a>
+          </p>
+        </div>
+    </footer>
+    <script src="./js/show_current_year.js"></script>
+    <script src="./js/change_menu.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>

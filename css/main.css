@@ -494,7 +494,7 @@ footer{
 }
 
 .main-foto-div{
-  background: url('../assets/main_page_short.jpg') center/cover no-repeat;
+  background: url('./../assets/main_page_short.jpg') center/cover no-repeat;
   height: 70vh;
   margin: 0px;
 }

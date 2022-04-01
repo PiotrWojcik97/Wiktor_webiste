@@ -243,7 +243,7 @@ height: 100%;
   }
 
   .nav-logo {
-    padding-left: 0x;
+    padding-left: 0px;
     padding-right: 0px;
   }
 
@@ -425,7 +425,7 @@ height: 100%;
   }
 
   .quote-presonal{
-    padding-left: 0;
+    padding-left: 0px;
   }
 }
 

@@ -232,6 +232,7 @@ height: 100%;
     display: flex;
     margin-top: 0px;
     margin-left: 10px;
+    margin-right: 10px;
   }
 
   .nav-btn:hover {

@@ -566,14 +566,13 @@ height: 100%;
 
 .section{
     border-top: 1px solid #3e2093;
-    padding-left: 4vh;
-    padding-right: 4vh;
+    padding-left: 7vh;
+    padding-right: 7vh;
 }
 
 .section-title{
   font-size: 2rem;
   margin-top: 10px;
-  margin-left: 50px;
   margin-bottom: 15px;
   color: #3e2093;
 }
@@ -583,7 +582,6 @@ height: 100%;
 }
 
 .section-description{
-  margin-left: 50px;
   font-size: 1.25rem;
   margin-bottom: 25px;
   text-align: justify;
